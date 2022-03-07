@@ -1,0 +1,62 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{
+    height: 400px;
+}
+
+div{
+    height: 400px;
+}
+
+.fondoColor{
+    background-color: #0f6666;
+}
+
+.fondoOpacidad{
+    background-color: #5D0c0c;
+    opacity: 0.6;
+}
+
+.fondoDegradado{
+    background:linear-gradient(rgba(86,8,103,1),rgba(208,0,135,1));
+}
+
+.fondoImagen{
+    background-image: url(./bg_practica_fondo_5.png);
+}
+
+.fondoRepetidoX{
+    background-image: url(./bg_practica_fondo_2.jpeg);
+    background-repeat: repeat-x ;
+}
+
+.fondoRepetidoY{
+    background-image: url(./bg_practica_fondo_2.jpeg);
+    background-repeat: repeat-y;
+}
+
+.fondoNoRepetido{
+    background-image: url(./bg_practica_fondo_5.png);
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url(./bg_practica_fondo_3.jpeg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.fondoPosicion{
+    background-image: url(./bg_practica_fondo_3.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.fondoCompleto{
+    background-image: url(./bg_practica_fondo_4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

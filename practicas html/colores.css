@@ -1,0 +1,27 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-size: 30px;
+}
+
+.colorRojo{
+    color: brown;
+}
+
+.colorRGB{
+    color: rgb(93, 113, 218);
+}
+
+.colorRGBA{
+    color: rgba(93, 217, 94, 0.6);
+}
+
+.colorHEX{
+    color: #EE43E3;
+}
+
+.colorHSL{
+    color: hsl(30, 69%, 31%) ;
+}

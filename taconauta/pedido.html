@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taconauta - Levantar Pedido</title>
+</head>
+<body>
+    <img src="./assets/img/logo_taconauta.png" alt="Logo Taconauta" width="200px">
+
+
+    <h1>Aquí se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre" >Danos tu nombre Taconauta</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="Mesa" >Tu mesa (Esta en el número de abajo)</label><br>
+        <input type="number" id="Mesa" name="Mesa" placeholder="4">
+
+        <br><br>
+        <p>¿Para aquí o para llevar?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aquí">
+        <label for="aqui">Aquí</label><br>
+        <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+        <label for="llevar">Llevar</label><br>
+
+        <p>¿De qué quieres tus tacos?</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" id="mercurioCuantos" name="mercurioCuantos" placeholder="¿Cuántos?"> <br>
+
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="mercurio">Venus</label>
+        <input type="number" id="venusCuantos" name="venusCuantos" placeholder="¿Cuántos?"> <br>
+
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+        <label for="tierra">Tierra</label>
+        <input type="number" id="tierraCuantos" name="tierraCuantos" placeholder="¿Cuántos?"> <br>
+
+        <p>Y para tomar ¿qué se te antoja?</p>
+        <select name="refresco" id="refresco">
+            <option value="Coca-Cola">Coca-Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Squirt">Squirt</option>
+            <option value="Sangría">Sangría</option>
+            <option value="Orange">Orange</option>
+        </select>
+<br><br>
+        <input type="reset"><br><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>

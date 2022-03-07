@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Chocoqueso</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">  
+</head>
+
+<body>
+    <header>
+        <a href="../Pasteleria/index.html">
+        <img src="../Pasteleria/assets/images/dulces_delicias_logo.png" alt="Logo Dulces Delicias" width="250">
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./pasteleria_menu.html">Sabor de Pastel</a></li>
+          <!-- <li><a href="./pasteleria_pedido.html">Pedido de pastel</a></li> -->
+        </ul>
+    </nav>
+<br>
+    <h2>Pastel de Chocoqueso</h2>
+
+    <p class="subtitle">Personaliza tu pedido</p>
+<br>
+
+<div id="columna1">
+ <img src="../Pasteleria/assets/images/pastel_chocoqueso.png" alt="pastel_chocoqueso" width="600px">
+    </div>
+    <div id="columna2">
+        <h4>Dejanos tus datos</h4><br><br>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br><br>
+        <label for="telefono">Telefono</label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu telefono"><br><br>
+        <label for="correo">Correo electronico</label><br>
+        <input type="email" id="correo" name="correo" placeholder="Escribe tu correo"><br><br>
+        <label for="nombre">Descripcion general del pastel</label><br>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Escribe una descripcion general de tu pedido">
+        <br><br><br>
+        
+        <h4>Selecciona hasta hasta 2 sabores de tu pastel</h4><br>
+        <h5>Sabor 1</h5>
+        <select name="pastel" id="pastel">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Tres leches">Tres leches</option>
+            <option value="Moka">Moka</option>
+            <option value="Chocoqueso">Chocoqueso</option>
+        </select>
+        <br><br>
+        
+        <h5>Sabor 2</h5>
+        <select name="pastel" id="pastel">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Tres leches">Tres leches</option>
+            <option value="Moka">Moka</option>
+            <option value="Chocoqueso">Chocoqueso</option>
+        </select>
+        <br><br>
+
+        
+        <h4>Selecciona 2 tipos de decoracion</h4><br>
+
+               <input type="checkbox" id="barra_chocolate" name="barra_chocolate" value="barra_chocolate">
+                <label for="barra_chocolate">Barras de Chocolate  $150  </label>
+
+                <input type="checkbox" id="chantilli" name="chantilli" value="chantilli">
+                <label for="chantilli">Crema chantilli  $100  </label>
+
+                <input type="checkbox" id="frutos_rojos" name="frutos_rojos" value="frutos_rojos">
+                <label for="frutos_rojos">Frutos Rojos  $200</label><br><br>
+
+                <input type="checkbox" id="ganache_chocolate" name="ganache_chocolate" value="ganache_chocolate">
+                <label for="ganache_chocolate">Ganache chocolate  $180</label>
+                      
+                <input type="checkbox" id="macarrones" name="macarrones" value="macarrones">
+                <label for="macarrones">Macarrones $220</label>
+    
+                <input type="checkbox" id="fondant" name="fondant" value="fondant">
+                <label for="fondant">Fondant $300</label><br>
+
+                <br>
+                <input type="reset" value="Borrar Formulario"><br><br>
+                <input type="submit" value="Hacer Pedido">
+                <br><br><br>
+        
+    </div>
+
+<!--Separar formulario del footer!!!!-->
+
+    <footer>
+        <h3>DULCES DELICIAS PASTELERIA</h3>
+        <p>Ignacio Zaragoza No. 3877 Col. Las Flores Rosas, alcaldia, Tlalpan, CDMX</p>
+        <p>Tel. 5578995432</p> Horario de atencion 10:00 a.m. a 18:00
+        <p>Derechos reservados Dulces Delicias 2022</p>
+    </footer>
+
+</body>
+
+</html>

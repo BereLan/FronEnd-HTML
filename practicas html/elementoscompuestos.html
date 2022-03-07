@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Compuestos</title>
+</head>
+<body>
+    
+<!--Entradas / Inputs-->
+<input type="text" id="Input1" name="Input1" value="Valor1">
+<br><br>
+<label for="Input1">Ejemplo de input basico</label><br>
+<input type="text" id="Input2" name="Input2" value="Valor2">
+<br><br>
+
+<!--Etiquetas para Inputs-->
+
+<label for="Input2">Ejemplo de input basico</label><br><br>
+
+<!--Tipos de Input-->
+<label for="correo1">Input de correo</label><br>
+<input type="email" id="correo1" name="correo1" value="Escribe tu correo"><br><br>
+
+<!--Este tipo de input solo admite valor de numeros-->
+<label for="numero1">Input de numero</label><br>
+<input type="number" id="numero1" name="numero1" value="123456"><br><br>
+
+<label for="psw1">Input de password</label><br>
+<input type="password" id="psw1" name="psw1" value="valor de pass" minlength="5"><br><br>
+
+<!--El maxlength y el minlength son para maximo y minimo de caracteres-->
+<label for="tel1">Input de telefono</label><br>
+<input type="tel" id="psw1" name="tel1" value="valor de telefono" maxlength="10"><br><br>
+
+<label for="url1">Input de URL</label><br>
+<input type="url" id="url1" name="wrl1" value="valor de url"> <br><br>
+
+
+<!--Input tipo Checkbox-->
+
+<h2>Elije los ingredientes de tu Crepa</h2>
+<input type="checkbox" id=crepa1 name=crepa1>
+<label for="crepa1">Cajeta</label><br><br>
+
+<input type="checkbox" id=crepa2 name=crepa2>
+<label for="crepa2">Lechera</label><br><br>
+
+<input type="checkbox" id=crepa3 name=crepa3>
+<label for="crepa3">Mermelada de zarzamora</label><br><br><br>
+
+
+<!--Input de Color, despliega un color picker-->
+<label for="color1">Input de color</label><br>
+<input type="color" id=color1 name=color1><br><br>
+
+
+<!--Input de fecha-->
+<label for="fecha1">Input de fecha</label><br>
+<input type="date" id="fecha1" name="fecha1"><br><br>
+<input type="datetime-local" id="fecha2" name="fecha2"><br><br>
+<input type="week" id="fecha3" name="fecha3"><br><br>
+<input type="time" id="fecha4" name="fecha4"><br><br>
+<input type="month" id="fecha5" name="fecha5"><br><br><br>
+
+<label for="archivo1">Input de Archivo</label>
+<input type="file" id="archivo1" name="archivo1" multiple><br><br>
+<input type="file" id="archivo1" name="archivo1"><br><br>
+
+
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="html">CSS</label><br>
+<input type="radio" id="javascript" name="fav_language" value="JAVASCRIPT">
+<label for="html">JAVASCRIPT</label><br><br>
+
+<label for="vol">Volumen entre 0 y 50</label><br>
+<input type="range" id="vol" name="vol" min="10" max="100"><br><br>
+
+<input type="reset" value="BORRAR_RESET"><br><br>
+<input type="submit"><br><br>
+<input type="button" id="boton1" name="boton1" value="Click aqui para mensaje de Alerta" onclick="alert('Bienvenidos Explorers');"><br><br>
+
+
+</body>
+</html>
